@@ -1,24 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-     <title>to-do-list</title>   
-    
-    
-       
-        <style>
-            #container {
-                display: flex;
-                flex-wrap: wrap;
-            }
+        <link rel="stylesheet" type="text/css" href="to-do-list.css">
+        <title>To-Do-List</title>
+      </head>
+      <body>
+        <div class="container">
+           <h1>Today's to do list</h1>
+           Monday, september 19th
+           <ol>
+            <li>write a blog post</li>
+            <li>go to the bank</li>
+            <li>study for the exam</li>
+            <li>Renew web hosting account and domain name</li>
+            <li>Learn something new</li>
 
-           #container> div {
-            background-color: #f7f381;
-            padding: 8px 24px;
-            width: 500px;
-            Text size: 30px;
-            border: 1px solid #f7f381;
-            box-shadow: 0 0 10px 2px #333333;
-           }
+
+
+
+           </ol> 
           
-        </style>
-    </head>   
+         
+          <ul id="taskList"></ul>
+        </div>
+      
+        <script src="script.js"></script>
+      </body>
+      </html> 
